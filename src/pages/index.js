@@ -46,9 +46,10 @@ const IndexPage = () => {
   });
   return (
     <Wrapper>
-      <audio autoPlay loop>
+      /*<audio autoPlay loop>
         <source src={Song} />
       </audio>
+	  */
       <Title />
       <Greeting />
       <Gallery />
@@ -64,7 +65,7 @@ const IndexPage = () => {
           textAlign: "center",
         }}
       >
-        Copyright © 2022 Shin Jooyoung
+        Copyright © 2025 DaeSeop
       </Footer>
     </Wrapper>
   );
